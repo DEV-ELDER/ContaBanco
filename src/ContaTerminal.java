@@ -16,6 +16,8 @@ public class ContaTerminal {
         double saldo = 237.48;
         
         
-        System.out.println("Olá".concat(nome));
+        System.out.println("Olá ".concat(nome) + 
+        ", obrigado por criar uma conta no nosso banco, sua agência é ".concat(agencia) +
+         " conta " + numeroConta + " e seu saldo " + saldo + " já está disponível para saque");
     }
 }
